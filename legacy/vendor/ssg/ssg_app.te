@@ -34,7 +34,7 @@ type ssg_app, domain;
 app_domain(ssg_app)
 net_domain(ssg_app)
 
-hal_client_domain(ssg_app, vendor_qccsyshal);
+#hal_client_domain(ssg_app, vendor_qccsyshal);
 
 # Allow access to sockets
 unix_socket_connect(ssg_app, mlid, mlid)
