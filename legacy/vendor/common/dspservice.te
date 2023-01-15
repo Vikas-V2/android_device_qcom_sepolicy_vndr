@@ -34,7 +34,7 @@ init_daemon_domain(vendor_dspservice)
 
 # Allow permissions required for this HAL server to offer a
 # HAL implementation of the specified type over HwBinder
-hal_server_domain(vendor_dspservice, vendor_hal_dspmanager)
+#hal_server_domain(vendor_dspservice, vendor_hal_dspmanager)
 
 # Allow DSP clients to perform binder IPC to DSP HAL server
 binder_call(vendor_hal_dspmanager_client, vendor_hal_dspmanager_server)
